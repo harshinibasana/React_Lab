@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import {HashRouter,Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
@@ -13,6 +13,7 @@ import NotFound from "./NotFound";
 
 export default function App() {
   return (
+    <HashRouter>
     <div className="container">
       <h2 style={{ textAlign: "center" }}>Harshini's React Lab</h2>
       <NavBar />
@@ -33,5 +34,6 @@ export default function App() {
         </Routes>
       </div>
     </div>
+    </HashRouter>
   );
 }

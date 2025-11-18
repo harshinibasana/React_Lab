@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import {HashRouter,Routes, Route } from "react-router-dom";
+=======
+import { HashRouteRoutes, Route } from "react-router-dom";
+>>>>>>> origin/main
 import NavBar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
@@ -34,6 +38,10 @@ export default function App() {
         </Routes>
       </div>
     </div>
+<<<<<<< HEAD
     </HashRouter>
+=======
+</HashRouter>
+>>>>>>> origin/main
   );
 }

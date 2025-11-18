@@ -1,9 +1,4 @@
-# dependencies
 node_modules/
-
-# React build folder
 build/
-
-# Optional: system files
 .DS_Store
 
